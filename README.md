@@ -265,7 +265,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
   For loop di JavaScript adalah salah satu bentuk control flow yang digunakan untuk menjalankan blok kode berulang kali dengan jumlah yang sudah ditentukan.
   </p>
   
-  ```
+  ```js
   for (let i = 1; i <= 5; i++) {
     console.log("Perulangan ke-" + i);
   }
