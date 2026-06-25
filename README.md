@@ -7,7 +7,9 @@ ada 2 cara untuk menyimpan file javascript internal js dan external js.
 ---
 
 - **Internal JavaScript** 📎
+  <p align="justify">
   Menyisipkan isi code javascript di dalam tag <script>...</script> pada html.
+  </p>
   
   ```html
     <script>
@@ -20,7 +22,9 @@ ada 2 cara untuk menyimpan file javascript internal js dan external js.
   ---
 
 - **External JavaScript** 📎
+  <p align="justify">
   Menyisipkan src"..." di dalam tag <script>...</script> pada html.
+  </p>
   
   ```html
     <script src="script.js"></script>
@@ -28,7 +32,7 @@ ada 2 cara untuk menyimpan file javascript internal js dan external js.
 
 ---
 
-## penjelasan Fungsi Interaksi 📎
+## Penjelasan Fungsi Interaksi 📎
 
 ```
 alert (Digunakan untuk menampilkan pesan sederhana).
@@ -138,14 +142,14 @@ Tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
   belum memiliki nilai atau tidak ada data yang relevan.
   </p>
 
-- **undefined**📎
+- **Undefined**📎
   <p align="justify">  
   Undefined adalah tipe data primitif di JavaScript. Nilai ini muncul ketika sebuah variabel sudah dideklarasikan tetapi belum diberi nilai. Jadi, undefined berarti "variabel ada, tapi belum ada isi".
   </p>  
 
 ---
 
-## 📌 penjelasan operator
+## 📌 Penjelasan Operator
 <p align="justify"> 
 Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai atau variabel. JavaScript menyediakan berbagai jenis operator sesuai kebutuhan diantaranya ada 7 jenis yaitu:
 </p>
