@@ -168,6 +168,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- ** → pangkat.
   ```
 
+- **Operator Aritmatika**📎
 - **Operator Penugasan (Assignment)**📎
   <p align="justify">  
   Memberikan nilai ke variabel.
