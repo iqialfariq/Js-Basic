@@ -6,18 +6,20 @@ ada 2 cara untuk menyimpan file javascript internal js dan external js.
 
 ---
 
-## Internal JavaScript
-```
-<script>
-    function sapa() {
-      alert("Halo Risqi, ini dari internal JS!");
-    }
-</script>
-```
-
----
-
-## External JavaScript
-```
-<script src="script.js"></script>
-```
+- **Internal JavaScript**  
+  Menyisipkan isi code javascript di dalam tag <script>...</script> pada html.  
+  ```html
+    <script>
+        function sapa() {
+          alert("Halo semua, ini dari internal JS!");
+        }
+    </script>
+  ```
+  
+  ---
+  
+  - **External JavaScript**  
+  Menyisipkan src"..." di dalam tag <script>...</script> pada html.  
+  ```html
+    <script src="script.js"></script>
+  ```
