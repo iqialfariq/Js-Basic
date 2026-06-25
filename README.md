@@ -276,7 +276,6 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
     - Perulangan ke-3
     - Perulangan ke-4
     - Perulangan ke-5
-  ```
 
 - **While**📎
   <p align="justify">  
