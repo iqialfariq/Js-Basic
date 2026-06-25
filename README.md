@@ -17,8 +17,8 @@ ada 2 cara untuk menyimpan file javascript internal js dan external js.
   ```
   
   ---
-  
-  - **External JavaScript**  
+
+- **External JavaScript**  
   Menyisipkan src"..." di dalam tag <script>...</script> pada html.  
   ```html
     <script src="script.js"></script>
