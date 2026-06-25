@@ -251,3 +251,162 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
   contoh:
    	- kondisi ? nilaiJikaTrue : nilaiJikaFalse
   ```
+
+---
+
+## 🧮 Penjelasan Control Flow
+<p align="justify"> 
+Control flow pada JavaScript adalah cara mengatur urutan eksekusi kode. Secara default, kode dijalankan dari atas ke bawah, tetapi dengan control flow statements kita bisa membuat percabangan, perulangan,
+dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan dan pengkondisian.
+</p>
+
+- **For**📎
+  <p align="justify">  
+  For loop di JavaScript adalah salah satu bentuk control flow yang digunakan untuk menjalankan blok kode berulang kali dengan jumlah yang sudah ditentukan.
+  </p>
+  
+  ```
+  for (let i = 1; i <= 5; i++) {
+    console.log("Perulangan ke-" + i);
+  }
+
+  Output:
+    - Perulangan ke-1
+    - Perulangan ke-2
+    - Perulangan ke-3
+    - Perulangan ke-4
+    - Perulangan ke-5
+  ```
+
+- **While**📎
+  <p align="justify">  
+  While loop di JavaScript adalah salah satu bentuk control flow yang digunakan untuk menjalankan blok kode berulang kali selama kondisi bernilai true.
+  </p>
+  
+  ```
+  let i = 1;
+  
+  while (i <= 5) {
+    console.log("Perulangan ke-" + i);
+    i++;
+  }
+  
+  Output:
+    - Perulangan ke-1
+    - Perulangan ke-2
+    - Perulangan ke-3
+    - Perulangan ke-4
+    - Perulangan ke-5
+  ```
+
+- **Do While**📎
+  <p align="justify">  
+  Do...While pada JavaScript adalah salah satu bentuk loop (perulangan) yang memastikan blok kode dijalankan setidaknya sekali, sebelum memeriksa kondisi.
+  </p>
+  
+  ```
+  let i = 1;
+  
+  do {
+    console.log("Perulangan ke-" + i);
+    i++;
+  } while (i <= 5);
+
+  Output:
+    - Perulangan ke-1
+    - Perulangan ke-2
+    - Perulangan ke-3
+    - Perulangan ke-4
+    - Perulangan ke-5
+  ```
+
+- **If**📎
+  <p align="justify">  
+  If statement di JavaScript adalah salah satu bentuk control flow yang digunakan untuk membuat percabangan logika. Dengan if, kita bisa menjalankan kode tertentu hanya jika kondisi bernilai true.
+  </p>
+  
+  ```
+  let umur = 20;
+  
+  if (umur >= 18) {
+    console.log("Boleh masuk");
+  }
+
+  Output:
+    - Boleh masuk
+  ```
+
+- **If Else**📎
+  <p align="justify">  
+  If...Else di JavaScript adalah struktur control flow yang digunakan untuk membuat percabangan logika. Dengan ini, program bisa memilih jalur eksekusi berbeda tergantung apakah suatu kondisi bernilai
+  true atau false.
+  </p>
+  
+  ```
+  let umur = 16;
+  
+  if (umur >= 18) {
+    console.log("Boleh masuk");
+  } else {
+    console.log("Belum cukup umur");
+  }
+
+  Output:
+    - Belum cukup umur
+  ```
+
+- **If, Else If, Else**📎
+  <p align="justify">  
+  If...Else If...Else di JavaScript adalah struktur control flow yang digunakan untuk membuat percabangan logika dengan banyak kondisi. Dengan ini, program bisa memilih jalur eksekusi berbeda tergantung
+  hasil evaluasi kondisi.
+  </p>
+  
+  ```
+  let nilai = 85;
+  
+  if (nilai >= 90) {
+    console.log("Nilai A");
+  } else if (nilai >= 75) {
+    console.log("Nilai B");
+  } else if (nilai >= 60) {
+    console.log("Nilai C");
+  } else {
+    console.log("Nilai D");
+  }
+
+  Output:
+    - Nilai B
+  ```
+
+- **Switch**📎
+  <p align="justify">  
+  Switch statement di JavaScript adalah salah satu bentuk control flow yang digunakan untuk menangani percabangan dengan banyak kemungkinan nilai. Fungsinya mirip dengan if...else if...else, tetapi lebih
+  rapi dan mudah dibaca ketika ada banyak kondisi yang bergantung pada satu variabel atau ekspresi.
+  </p>
+  
+  ```
+  let hari = "Senin";
+  
+  switch (hari) {
+    case "Senin":
+      console.log("Hari kerja pertama");
+      break;
+    case "Selasa":
+      console.log("Hari kerja kedua");
+      break;
+    case "Rabu":
+      console.log("Hari kerja ketiga");
+      break;
+    case "Kamis":
+      console.log("Hari kerja keempat");
+      break;
+    case "Jumat":
+      console.log("Hari kerja terakhir");
+      break;
+    default:
+      console.log("Hari libur");
+  }
+
+  Output:
+    - Hari kerja pertama
+  ```
