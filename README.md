@@ -282,7 +282,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
   While loop di JavaScript adalah salah satu bentuk control flow yang digunakan untuk menjalankan blok kode berulang kali selama kondisi bernilai true.
   </p>
   
-  ```
+  ```js
   let i = 1;
   
   while (i <= 5) {
@@ -296,14 +296,13 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
     - Perulangan ke-3
     - Perulangan ke-4
     - Perulangan ke-5
-  ```
 
 - **Do While**📎
   <p align="justify">  
   Do...While pada JavaScript adalah salah satu bentuk loop (perulangan) yang memastikan blok kode dijalankan setidaknya sekali, sebelum memeriksa kondisi.
   </p>
   
-  ```
+  ```js
   let i = 1;
   
   do {
@@ -317,14 +316,13 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
     - Perulangan ke-3
     - Perulangan ke-4
     - Perulangan ke-5
-  ```
 
 - **If**📎
   <p align="justify">  
   If statement di JavaScript adalah salah satu bentuk control flow yang digunakan untuk membuat percabangan logika. Dengan if, kita bisa menjalankan kode tertentu hanya jika kondisi bernilai true.
   </p>
   
-  ```
+  ```js
   let umur = 20;
   
   if (umur >= 18) {
@@ -333,7 +331,6 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
 
   Output:
     - Boleh masuk
-  ```
 
 - **If Else**📎
   <p align="justify">  
@@ -341,7 +338,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
   true atau false.
   </p>
   
-  ```
+  ```js
   let umur = 16;
   
   if (umur >= 18) {
@@ -352,7 +349,6 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
 
   Output:
     - Belum cukup umur
-  ```
 
 - **If, Else If, Else**📎
   <p align="justify">  
@@ -360,7 +356,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
   hasil evaluasi kondisi.
   </p>
   
-  ```
+  ```js
   let nilai = 85;
   
   if (nilai >= 90) {
@@ -375,7 +371,6 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
 
   Output:
     - Nilai B
-  ```
 
 - **Switch**📎
   <p align="justify">  
@@ -383,7 +378,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
   rapi dan mudah dibaca ketika ada banyak kondisi yang bergantung pada satu variabel atau ekspresi.
   </p>
   
-  ```
+  ```js
   let hari = "Senin";
   
   switch (hari) {
@@ -408,4 +403,3 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
 
   Output:
     - Hari kerja pertama
-  ```
