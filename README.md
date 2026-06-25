@@ -24,6 +24,8 @@ ada 2 cara untuk menyimpan file javascript internal js dan external js.
     <script src="script.js"></script>
   ```
 
+---
+
 ## penjelasan Fungsi Interaksi
 
 ```
@@ -40,6 +42,8 @@ ada 2 cara untuk menyimpan file javascript internal js dan external js.
   cara menggunakan => console.log('pesan');
 
 ```
+
+---
 
 ### 🔤 Penjelasan Variabel
 <p align="justify"> 
@@ -70,6 +74,8 @@ Variabel adalah wadah untuk menyimpan data yang bisa digunakan dan dimanipulasi 
   - Hoisting: Sama seperti let, ada 'temporal dead zone'.
 ```
 
+---
+
 ## 📌 penjelasan tipe data
 <p align="justify"> 
 tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primitive (Reference) types.
@@ -92,7 +98,7 @@ tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
    	- NaN (Not-a-Number) → hasil operasi matematika yang tidak valid, contoh: 0/0
   ```
 
-  - **String**📎
+- **String**📎
   <p align="justify">  
     Tipe data String di JavaScript adalah tipe data primitif yang digunakan untuk menyimpan teks, yaitu kumpulan karakter. String bisa berupa huruf,
     angka, simbol, atau bahkan emoji, selama diapit oleh tanda kutip tunggal ('...'), tanda kutip ganda ("..."), atau template literal dengan backtick
@@ -110,7 +116,7 @@ tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
    	- \uXXXX => Unicode
   ```
 
-  - **Boolean**📎
+- **Boolean**📎
   <p align="justify">  
     Tipe data Boolean di JavaScript adalah salah satu tipe data primitif yang hanya memiliki dua nilai: true atau false. Boolean biasanya digunakan
     untuk logika, pengambilan keputusan, dan kondisi dalam program.
@@ -123,14 +129,130 @@ tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
    	- NOT (!) → membalik nilai Boolean
   ```
 
-  - **Null**📎
+- **Null**📎
   <p align="justify">  
     Null adalah sebuah nilai khusus dalam pemrograman yang menandakan bahwa sebuah variabel tidak memiliki nilai atau kosong. Biasanya dipakai dalam
     situasi di mana kita ingin menandai bahwa sebuah variabel belum memiliki nilai atau tidak ada data yang relevan.
   </p>
 
-  - **undefined**📎
+- **undefined**📎
   <p align="justify">  
     undefined adalah tipe data primitif di JavaScript. Nilai ini muncul ketika sebuah variabel sudah dideklarasikan tetapi belum diberi nilai. Jadi,
     undefined berarti "variabel ada, tapi belum ada isi".
+  </p>  
+
+---
+
+## 📌 penjelasan operator
+<p align="justify"> 
+Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai atau variabel. JavaScript menyediakan berbagai jenis operator sesuai
+kebutuhan diantaranya ada 7 jenis yaitu:
+</p>
+
+- **Operator Aritmatika**📎
+  <p align="justify">  
+    Digunakan untuk operasi matematika dasar.
   </p>
+  
+  ```
+    - + → penjumlahan
+   	- - → pengurangan
+   	- * → perkalian
+   	- / → pembagian
+   	- % → modulus (sisa bagi)
+   	- ** → pangkat
+  ```
+
+- **Operator Penugasan (Assignment)**📎
+  <p align="justify">  
+    Memberikan nilai ke variabel.
+  </p>
+  
+  ```
+   	- = → assignment dasar
+   	- += → tambah lalu assign
+   	- -= → kurang lalu assign
+   	- *= → kali lalu assign
+   	- /= → bagi lalu assign
+   	- %= → sisah bagi lalu assign
+  ```
+
+- **Operator Perbandingan (Comparison)**📎
+  <p align="justify">  
+    Membandingkan dua nilai yang hasil nya Boolean true atau false.
+  </p>
+  
+  ```
+   	- == → dua sama dengan (longgar, cek nilai saja)
+   	- === → tiga sama dengan (ketat, cek nilai & tipe data)
+   	- != → tidak satu sama dengan (longgar, cek nilai saja)
+   	- !== → tidak dua sama dengan (ketat, cek nilai & tipe data)
+   	- > → lebih besar
+   	- < → lebih kecil
+   	- >= → lebih besar atau sama
+   	- <= → lebih kecil atau sama
+  ```
+
+- **Operator Logika**📎
+  <p align="justify">  
+    Dipakai untuk operasi boolean.
+  </p>
+  
+  ```
+   	- && → AND (kedua nya harus true)
+   	- || → OR (salah satunya nya boleh true/false)
+   	- ! → NOT (membalikan nilai true - false atau false - true)
+  ```
+
+- **Operator String**📎
+  <p align="justify">  
+    DIpakai untuk menggabungkan string atau tuisan dan angka.
+  </p>
+  
+  ```
+   	- +
+   	- +=
+  ```
+
+  - **Operator Logika**📎
+  <p align="justify">  
+    Dipakai untuk operasi boolean.
+  </p>
+  
+  ```
+   	- && → AND (kedua nya harus true)
+   	- || → OR (salah satunya nya boleh true/false)
+   	- ! → NOT (membalikan nilai true - false atau false - true)
+  ```
+
+- **Operator Increment / Decrement**📎
+  <p align="justify">  
+    Dipakai untuk melakukan tambah atau kurang secara singkat.
+  </p>
+  
+  ```
+  - ++ → tambah 1
+  - -- → kurang 1
+  ```
+
+- **Unary Operator (typeof)**📎
+  <p align="justify">  
+    Operator yang bekerja pada satu operand saja.
+  </p>
+  
+  ```
+   	- +x → mengubah ke number
+   	- -x → negasi nilai
+   	- !x → logical NOT
+   	- typeof x → cek tipe data
+   	- delete obj.prop → hapus properti
+  ```
+
+  - **Unary Operator (typeof)**📎
+  <p align="justify">  
+    Operator yang bekerja pada tiga operand.
+  </p>
+  
+  ```
+  - kondisi ? nilaiJikaTrue : nilaiJikaFalse
+  ```
