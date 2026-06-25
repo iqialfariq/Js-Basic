@@ -182,7 +182,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- %= → sisah bagi lalu assign.
   ```
 
-- **Operator Perbandingan (Comparison)**📎
+- **Operator Perbandingan / Comparison**📎
   <p align="justify">  
   Membandingkan dua nilai yang hasil nya Boolean true atau false.
   </p>
@@ -229,7 +229,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- -- → kurang 1.
   ```
 
-- **Unary Operator (typeof)**📎
+- **Unary Operator / typeof**📎
   <p align="justify">  
   Operator yang bekerja pada satu operand saja.
   </p>
@@ -242,7 +242,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- delete obj.prop → hapus properti.
   ```
 
-- **Operator Ternary (Conditional)**📎
+- **Operator Ternary / Conditional**📎
   <p align="justify">  
   Operator yang bekerja pada tiga operand.
   </p>
