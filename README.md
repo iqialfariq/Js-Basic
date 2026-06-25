@@ -32,7 +32,7 @@ ada 2 cara untuk menyimpan file javascript internal js dan external js.
 
 ---
 
-## Penjelasan Fungsi Interaksi 📎
+## 🔄 Penjelasan Fungsi Interaksi
 
 ```
 alert (Digunakan untuk menampilkan pesan sederhana).
@@ -242,7 +242,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- delete obj.prop → hapus properti.
   ```
 
-  - **Operator Ternary (Conditional)**📎
+- **Operator Ternary (Conditional)**📎
   <p align="justify">  
   Operator yang bekerja pada tiga operand.
   </p>
