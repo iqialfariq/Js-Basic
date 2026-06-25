@@ -149,7 +149,7 @@ Tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
 
 ---
 
-## 📌 Penjelasan Operator
+## 🧮 Penjelasan Operator
 <p align="justify"> 
 Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai atau variabel. JavaScript menyediakan berbagai jenis operator sesuai kebutuhan diantaranya ada 7 jenis yaitu:
 </p>
