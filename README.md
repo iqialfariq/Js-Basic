@@ -204,7 +204,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
   </p>
   
   ```
-    - && → AND (kedua nya harus true).
+   	- && → AND (kedua nya harus true).
    	- || → OR (salah satunya nya boleh true/false).
    	- ! → NOT (membalikan nilai true - false atau false - true).
   ```
