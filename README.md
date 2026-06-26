@@ -90,7 +90,7 @@ Tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
 
 ### 📌 Tipe Data Primitive Types
 
-- **Number**📎
+- **Number** 📎
   <p align="justify">  
   Number adalah tipe data primitif yang digunakan untuk merepresentasikan angka, baik bilangan bulat (integer) maupun bilangan pecahan (floating point). Semua angka di JavaScript (kecuali BigInt) disimpan
   dalam format 64-bit floating point (IEEE 754).
@@ -105,7 +105,7 @@ Tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
    	- NaN (Not-a-Number) → hasil operasi matematika yang tidak valid, contoh: 0/0.
   ```
 
-- **String**📎
+- **String** 📎
   <p align="justify">  
   Tipe data String di JavaScript adalah tipe data primitif yang digunakan untuk menyimpan teks, yaitu kumpulan karakter. String bisa berupa huruf, angka, simbol, atau bahkan emoji, selama diapit oleh tanda
   kutip tunggal ('...'), tanda kutip ganda ("..."), atau template literal dengan backtick (`...`).
@@ -123,7 +123,7 @@ Tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
    	- \uXXXX → Unicode.
   ```
 
-- **Boolean**📎
+- **Boolean** 📎
   <p align="justify">  
   Tipe data Boolean di JavaScript adalah salah satu tipe data primitif yang hanya memiliki dua nilai: true atau false. Boolean biasanya digunakan untuk logika, pengambilan keputusan, dan kondisi dalam
   program.
@@ -136,13 +136,13 @@ Tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
    	- NOT (!) → membalik nilai Boolean.
   ```
 
-- **Null**📎
+- **Null** 📎
   <p align="justify">  
   Null adalah sebuah nilai khusus dalam pemrograman yang menandakan bahwa sebuah variabel tidak memiliki nilai atau kosong. Biasanya dipakai dalam situasi di mana kita ingin menandai bahwa sebuah variabel
   belum memiliki nilai atau tidak ada data yang relevan.
   </p>
 
-- **Undefined**📎
+- **Undefined** 📎
   <p align="justify">  
   Undefined adalah tipe data primitif di JavaScript. Nilai ini muncul ketika sebuah variabel sudah dideklarasikan tetapi belum diberi nilai. Jadi, undefined berarti "variabel ada, tapi belum ada isi".
   </p>  
@@ -154,7 +154,7 @@ Tipe data JavaScript memiliki dua kategori yaitu: Primitive types dan Non-primit
 Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai atau variabel. JavaScript menyediakan berbagai jenis operator sesuai kebutuhan diantaranya ada 7 jenis yaitu:
 </p>
 
-- **Operator Aritmatika**📎
+- **Operator Aritmatika** 📎
   <p align="justify">  
   Digunakan untuk operasi matematika dasar.
   </p>
@@ -168,7 +168,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- ** → pangkat.
   ```
 
-- **Operator Penugasan / Assignment**📎
+- **Operator Penugasan / Assignment** 📎
   <p align="justify">  
   Memberikan nilai ke variabel.
   </p>
@@ -182,7 +182,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- %= → sisah bagi lalu assign.
   ```
 
-- **Operator Perbandingan / Comparison**📎
+- **Operator Perbandingan / Comparison** 📎
   <p align="justify">  
   Membandingkan dua nilai yang hasil nya Boolean true atau false.
   </p>
@@ -198,7 +198,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- <= → lebih kecil atau sama.
   ```
 
-- **Operator Logika**📎
+- **Operator Logika** 📎
   <p align="justify">  
   Dipakai untuk operasi boolean.
   </p>
@@ -209,7 +209,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- ! → NOT (membalikan nilai true - false atau false - true).
   ```
 
-- **Operator String**📎
+- **Operator String** 📎
   <p align="justify">  
   Dipakai untuk menggabungkan string atau tuisan dan angka.
   </p>
@@ -219,7 +219,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- +=
   ```
 
-- **Operator Increment / Decrement**📎
+- **Operator Increment / Decrement** 📎
   <p align="justify">  
   Dipakai untuk melakukan tambah atau kurang secara singkat.
   </p>
@@ -229,7 +229,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- -- → kurang 1.
   ```
 
-- **Unary Operator / typeof**📎
+- **Unary Operator / typeof** 📎
   <p align="justify">  
   Operator yang bekerja pada satu operand saja.
   </p>
@@ -242,7 +242,7 @@ Operator adalah simbol khusus yang digunakan untuk melakukan operasi pada nilai 
    	- delete obj.prop → hapus properti.
   ```
 
-- **Operator Ternary / Conditional**📎
+- **Operator Ternary / Conditional** 📎
   <p align="justify">  
   Operator yang bekerja pada tiga operand.
   </p>
@@ -260,7 +260,7 @@ Control flow pada JavaScript adalah cara mengatur urutan eksekusi kode. Secara d
 dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan dan pengkondisian.
 </p>
 
-- **For**📎
+- **For** 📎
   <p align="justify">  
   For loop di JavaScript adalah salah satu bentuk control flow yang digunakan untuk menjalankan blok kode berulang kali dengan jumlah yang sudah ditentukan.
   </p>
@@ -277,7 +277,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
     - Perulangan ke-4
     - Perulangan ke-5
 
-- **While**📎
+- **While** 📎
   <p align="justify">  
   While loop di JavaScript adalah salah satu bentuk control flow yang digunakan untuk menjalankan blok kode berulang kali selama kondisi bernilai true.
   </p>
@@ -297,7 +297,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
     - Perulangan ke-4
     - Perulangan ke-5
 
-- **Do While**📎
+- **Do While** 📎
   <p align="justify">  
   Do...While pada JavaScript adalah salah satu bentuk loop (perulangan) yang memastikan blok kode dijalankan setidaknya sekali, sebelum memeriksa kondisi.
   </p>
@@ -317,7 +317,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
     - Perulangan ke-4
     - Perulangan ke-5
 
-- **If**📎
+- **If** 📎
   <p align="justify">  
   If statement di JavaScript adalah salah satu bentuk control flow yang digunakan untuk membuat percabangan logika. Dengan if, kita bisa menjalankan kode tertentu hanya jika kondisi bernilai true.
   </p>
@@ -332,7 +332,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
   Output:
     - Boleh masuk
 
-- **If Else**📎
+- **If Else** 📎
   <p align="justify">  
   If...Else di JavaScript adalah struktur control flow yang digunakan untuk membuat percabangan logika. Dengan ini, program bisa memilih jalur eksekusi berbeda tergantung apakah suatu kondisi bernilai
   true atau false.
@@ -350,7 +350,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
   Output:
     - Belum cukup umur
 
-- **If, Else If, Else**📎
+- **If, Else If, Else** 📎
   <p align="justify">  
   If...Else If...Else di JavaScript adalah struktur control flow yang digunakan untuk membuat percabangan logika dengan banyak kondisi. Dengan ini, program bisa memilih jalur eksekusi berbeda tergantung
   hasil evaluasi kondisi.
@@ -372,7 +372,7 @@ dan penanganan error. Jenis Control Flow di JavaScrip ada 2 yaitu pengulangan da
   Output:
     - Nilai B
 
-- **Switch**📎
+- **Switch** 📎
   <p align="justify">  
   Switch statement di JavaScript adalah salah satu bentuk control flow yang digunakan untuk menangani percabangan dengan banyak kemungkinan nilai. Fungsinya mirip dengan if...else if...else, tetapi lebih
   rapi dan mudah dibaca ketika ada banyak kondisi yang bergantung pada satu variabel atau ekspresi.
